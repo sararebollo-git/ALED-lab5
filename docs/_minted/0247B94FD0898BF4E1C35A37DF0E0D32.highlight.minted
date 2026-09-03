@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{p}{...}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{capacity}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{in}\PYG{p}{.}\PYG{n+na}{nextInt}\PYG{p}{();}
+\PYG{p}{...}
+\PYG{n}{Area}\PYG{+w}{ }\PYG{n}{area}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{Area}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{time}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{capacity}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{Position2D}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{y}\PYG{p}{));}
+\PYG{p}{...}\PYG{+w}{				}
+\end{MintedVerbatim}

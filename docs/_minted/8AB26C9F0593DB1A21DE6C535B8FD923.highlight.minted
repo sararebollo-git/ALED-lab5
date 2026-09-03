@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nd}{@Override}
+\PYG{k+kd}{public}\PYG{+w}{ }\PYG{k+kd}{synchronized}\PYG{+w}{ }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{enter}\PYG{p}{(}\PYG{n}{Patient}\PYG{+w}{ }\PYG{n}{patient}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{p}{...}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}
