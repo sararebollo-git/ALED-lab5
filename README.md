@@ -1,3 +1,28 @@
-# ALED (Algorithms and Data Structures) Lab Session 5
+# AED - Práctica 5: Monitores y recursos compartidos
 
-This repository contains the code for a Java application that simulates an ER of a hospital using threads. It also uses monitors to manage shared resources (the areas of the ER).
+Código base para la práctica 5 de Algoritmos y Estructuras de Datos
+(Grado en Ingeniería Biomédica, UPM).
+
+La aplicación Java simula un servicio de urgencias hospitalario
+mediante hilos, usando monitores para gestionar los recursos
+compartidos (las áreas del servicio de urgencias).
+
+## Cómo trabajar en esta práctica
+
+1. Haz un **fork** de este repositorio a tu cuenta de GitHub.
+2. Antes de empezar a hacer commits, comprueba en `Settings > General`
+   de tu fork que la visibilidad es **pública**. Solo se evaluarán
+   los commits hechos sobre un fork público.
+3. Clona tu fork e impórtalo como proyecto Eclipse existente
+   (`.project` y `.classpath` ya están incluidos).
+4. Trabaja y haz commit de tus cambios en tu fork.
+
+## Documentación
+
+El guion de la práctica está en [`docs/ALED-lab5.pdf`](docs/ALED-lab5.pdf),
+generado automáticamente a partir de su fuente LaTeX en Overleaf.
+
+## Licencia
+
+Este proyecto se distribuye bajo licencia MIT. Consulta
+[`LICENSE.md`](LICENSE.md).
