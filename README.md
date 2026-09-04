@@ -1,4 +1,4 @@
-# AED - Práctica 5: Monitores y recursos compartidos
+# ALED - Práctica 5: Monitores y recursos compartidos
 
 Código base para la práctica 5 de Algoritmos y Estructuras de Datos
 (Grado en Ingeniería Biomédica, UPM).
