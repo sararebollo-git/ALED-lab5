@@ -1,7 +1,7 @@
 # Licencia del código
 
-Se aplica al código fuente (`src/`). Los enunciados se rigen por
-[`LICENSE-DOCS.md`](LICENSE-DOCS.md).
+Se aplica al código fuente (`src/`) y a los datos de `er/`. Los
+enunciados se rigen por [`LICENSE-DOCS.md`](LICENSE-DOCS.md).
 
 MIT License
 

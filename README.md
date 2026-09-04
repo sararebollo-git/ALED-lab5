@@ -24,8 +24,8 @@ generado automáticamente a partir de su fuente LaTeX en Overleaf.
 
 ## Licencia
 
-El código fuente (`src/`) se distribuye bajo licencia MIT. Consulta
-[`LICENSE.md`](LICENSE.md).
+El código fuente (`src/`) y los datos de `er/` se distribuyen bajo
+licencia MIT. Consulta [`LICENSE.md`](LICENSE.md).
 
 Los enunciados (`docs/`) se distribuyen bajo licencia CC BY-NC-SA 4.0.
 Consulta [`LICENSE-DOCS.md`](LICENSE-DOCS.md).
