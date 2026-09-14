@@ -15,7 +15,7 @@ compartidos (las áreas del servicio de urgencias).
    los commits hechos sobre un fork público.
 3. Clona tu fork e impórtalo como proyecto Eclipse existente
    (`.project` y `.classpath` ya están incluidos).
-4. Trabaja y haz commit de tus cambios en tu fork.
+4. Trabaja, haz commit de tus cambios y haz push a tu fork.
 
 ## Documentación
 
