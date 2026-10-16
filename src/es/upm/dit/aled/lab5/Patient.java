@@ -164,7 +164,15 @@ public class Patient extends Thread {
 	 */
 	@Override
 	public void run() {
+		while(indexProtocol < protocol.size()) { //mientras que el indice de protocolo sea menor que el numero de elementos que haya en el protocolo
+			this.location.enter(this); //antes de ser atendido se invoca al metodo entrar
+			attendedAtLocation(); //se atiende al paciente
+			this.location.exit(this); //despues de ser atendido se invoca metodo salir
+			advanceProtocol(); //avanzo en el protocolo
+		}
+		EmergencyRoomGUI.getInstance().removePatient(this);
+	}
+
 		// TODO
 	}
 
-}
