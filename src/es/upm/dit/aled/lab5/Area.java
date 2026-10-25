@@ -100,9 +100,9 @@ public class Area {
 	public synchronized void enter(Patient p) {
 		this.waiting++; //antes de todo se le hace esperar, si entra en el while va a tener que seguir esperando, si no luego se le resta este tiempo de espera
 		while(this.numPatients>=this.capacity) { //mientras el numero de pacientes sea mayor que la capacidad. siempre coger del constructor no de los atributos
-		try { //con el wait usar siempre un try catch
-		wait(); //se le hace esperar
-		}catch(InterruptedException e) {}
+			try { //con el wait usar siempre un try catch
+			wait(); //se le hace esperar
+			}catch(InterruptedException e) {}
 		}
 		this.waiting--; //si no ha entrado en el while se le tiene que restar el tiempo que ha estado esperando innecesariamente
 		this.numPatients++; //por lo contrario, el paciente entra y se incrementa el numero de pacientes
